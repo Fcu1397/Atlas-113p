@@ -9,6 +9,31 @@ img {
     max-width: 100%;
 }
 
+img[src*="feature-1"] {
+    aspect-ratio: 599 / 352;
+    width: 100%;
+    height: auto;
+}
+
+img[src*="feature-2"] {
+    aspect-ratio: 599 / 352;
+    width: 100%;
+    height: auto;
+}
+
+img[src*="logo"] {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+img[src*="client-1"] {
+    aspect-ratio: 181 / 71;
+    width: 100%;
+    height: auto;
+}
+
+
 a,
 button {
     cursor: pointer;
